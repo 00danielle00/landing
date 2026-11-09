@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Danielle Bemfica | Full Stack Developer</title>
+  <meta name="description" content="Portfolio de Danielle Bemfica, desarrolladora de aplicaciones multiplataforma (DAM) y full stack developer junior.">
+
+  <!-- Bootstrap y iconos -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#menu" data-bs-offset="100">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio">danielle<span>.dev</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+        <i class="bi bi-list fs-2"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tecnologias">Tecnologías</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#trayectoria">Trayectoria</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn btn-contacto" href="#contacto">Contactar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="inicio">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-6">
+          <p class="hero-estado"><span class="punto"></span> Disponible para mi primer puesto junior</p>
+          <h1>Convierto ideas en apps y webs que funcionan.</h1>
+          <p class="hero-texto">Soy Danielle Bemfica, desarrolladora de aplicaciones multiplataforma y técnica en sistemas microinformáticos y redes. Me muevo entre el código, las bases de datos y la gestión web.</p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#proyectos" class="btn btn-principal">Ver proyectos</a>
+            <a href="cv.pdf" class="btn btn-secundario" download>Descargar CV</a>
+          </div>
+        </div>
+
+        <!-- Ventana de código -->
+        <div class="col-lg-6">
+          <div class="editor">
+            <div class="editor-barra">
+              <span></span><span></span><span></span>
+              <small>danielle.js</small>
+            </div>
+<pre class="editor-codigo"><code><span class="c-kw">const</span> <span class="c-cl">danielle</span> = {
+  rol: <span class="c-st">"Full Stack Developer"</span>,
+  ciclo: <span class="c-st">"DAM"</span>,
+  stack: [
+    <span class="c-st">"PHP"</span>, <span class="c-st">"FlutterFlow"</span>,
+    <span class="c-st">"Supabase"</span>, <span class="c-st">"Odoo"</span>
+  ],
+  idiomas: [<span class="c-st">"es"</span>, <span class="c-st">"pt"</span>, <span class="c-st">"en"</span>],
+  buscando: <span class="c-st">"mi primer puesto junior"</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SOBRE MÍ -->
+  <section class="seccion" id="sobre-mi">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-4">
+          <h2>Sobre mí</h2>
+        </div>
+        <div class="col-lg-8">
+          <p class="lead-texto">Me gusta construir cosas que alguien va a usar de verdad, desde una app para aprender hasta el sistema que organiza una asociación entera.</p>
+          <p>He desarrollado una aplicación de gestión de albaranes en PHP y un sistema integral de gestión con escuela online para una organización, usando Odoo y WordPress sobre un servidor en la nube. También tengo experiencia con tiendas online en WordPress, Shopify y PrestaShop, y trabajo con metodología Scrum.</p>
+          <p>Busco mi primera oportunidad como desarrolladora junior o en gestión web, en un equipo donde pueda seguir creciendo.</p>
+          <div class="row g-3 mt-2 datos">
+            <div class="col-6 col-md-4"><strong>Perfil</strong><span>Full Stack junior</span></div>
+            <div class="col-6 col-md-4"><strong>Idiomas</strong><span>Español, portugués e inglés B2</span></div>
+            <div class="col-12 col-md-4"><strong>Busco</strong><span>Desarrollo junior o gestión web</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECNOLOGÍAS -->
+  <section class="seccion seccion-gris" id="tecnologias">
+    <div class="container">
+      <h2>Tecnologías</h2>
+      <p class="subtitulo">Con lo que he trabajado en mis estudios y prácticas.</p>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="grupo">
+            <h3><i class="bi bi-code-slash"></i> Desarrollo</h3>
+            <ul><li>PHP</li><li>HTML y CSS</li><li>Bootstrap</li><li>FlutterFlow</li><li>Stack AI</li></ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="grupo">
+            <h3><i class="bi bi-database"></i> Bases de datos</h3>
+            <ul><li>Supabase</li><li>SQL Server</li></ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="grupo">
+            <h3><i class="bi bi-shop"></i> CMS y e-commerce</h3>
+            <ul><li>WordPress</li><li>Odoo</li><li>Shopify</li><li>PrestaShop</li></ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="grupo">
+            <h3><i class="bi bi-people"></i> Herramientas y método</h3>
+            <ul><li>Git y GitHub</li><li>Scrum</li><li>Soporte de sistemas</li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="seccion" id="proyectos">
+    <div class="container">
+      <h2>Proyectos</h2>
+      <p class="subtitulo">Lo que he construido durante la formación y las prácticas.</p>
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-4">
+          <article class="proyecto">
+            <div class="proyecto-cabecera tono-1"><i class="bi bi-cup-straw"></i></div>
+            <div class="proyecto-cuerpo">
+              <h3>MixItUp</h3>
+              <p>Aplicación para aprender a preparar cócteles paso a paso. Es mi proyecto final de DAM.</p>
+              <p class="etiquetas"><span>FlutterFlow</span><span>Supabase</span><span>Stack AI</span></p>
+              <p class="meta">Proyecto final de DAM</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="proyecto">
+            <div class="proyecto-cabecera tono-2"><i class="bi bi-diagram-3"></i></div>
+            <div class="proyecto-cuerpo">
+              <h3>Sistema de gestión y escuela online</h3>
+              <p>Sistema integral para gestionar la organización Reinas de Biberón, desplegado en un servidor en la nube, y una escuela online para voluntarios, trabajadores y personas interesadas en adoptar.</p>
+              <p class="etiquetas"><span>Odoo</span><span>WordPress</span><span>Scrum</span></p>
+              <p class="meta">Reinas de Biberón, 2026</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="proyecto">
+            <div class="proyecto-cabecera tono-3"><i class="bi bi-receipt"></i></div>
+            <div class="proyecto-cuerpo">
+              <h3>Gestión de albaranes</h3>
+              <p>Aplicación web para gestionar albaranes, desarrollada durante mis prácticas junto con otras páginas web de la empresa.</p>
+              <p class="etiquetas"><span>PHP</span><span>HTML</span><span>CSS</span><span>Bootstrap</span></p>
+              <p class="meta">Syscel Solutions, 2024</p>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAYECTORIA -->
+  <section class="seccion seccion-gris" id="trayectoria">
+    <div class="container">
+      <h2>Trayectoria</h2>
+      <p class="subtitulo">Dónde he trabajado y dónde me he formado.</p>
+      <div class="row g-5">
+
+        <div class="col-lg-6">
+          <h3 class="columna-titulo">Experiencia</h3>
+          <ol class="linea">
+            <li>
+              <span class="fecha">Abril - Mayo 2026</span>
+              <h3>Reinas de Biberón</h3>
+              <p>Sistema integral de gestión con Odoo en un servidor en la nube y escuela online con WordPress. Trabajo con Scrum.</p>
+            </li>
+            <li>
+              <span class="fecha">Abril - Mayo 2025</span>
+              <h3>NTT DATA</h3>
+              <p>Formación en un entorno tecnológico profesional con cursos de Java, SQL, cloud y testing, y aprendizaje de las metodologías de una consultora.</p>
+            </li>
+            <li>
+              <span class="fecha">Marzo - Mayo 2024</span>
+              <h3>Syscel Solutions</h3>
+              <p>Aplicación de gestión de albaranes con PHP, HTML, CSS y Bootstrap, creación de páginas web y mantenimiento de sistemas.</p>
+            </li>
+            <li>
+              <h3>Ludoban, atención al cliente</h3>
+              <p>Empresa familiar. Trato directo con clientes nacionales e internacionales y apoyo en la gestión diaria.</p>
+            </li>
+          </ol>
+        </div>
+
+        <div class="col-lg-6">
+          <h3 class="columna-titulo">Formación</h3>
+          <ol class="linea">
+            <li>
+              <span class="fecha">2024 - 2026</span>
+              <h3>Desarrollo de Aplicaciones Multiplataforma</h3>
+              <p>IES Mutxamel. Proyecto final: MixItUp, con FlutterFlow, Supabase y Stack AI.</p>
+            </li>
+            <li>
+              <span class="fecha">2022 - 2024</span>
+              <h3>Sistemas Microinformáticos y Redes</h3>
+              <p>IES Mutxamel.</p>
+            </li>
+            <li>
+              <span class="fecha">2016 - 2021</span>
+              <h3>Educación Secundaria Obligatoria</h3>
+              <p>IES Mutxamel.</p>
+            </li>
+          </ol>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="seccion" id="contacto">
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-lg-5">
+          <h2>Hablemos</h2>
+          <p class="subtitulo">Si tienes una oferta o quieres saber más de mis proyectos, escríbeme y te respondo lo antes posible.</p>
+          <ul class="contactos">
+            <li><i class="bi bi-envelope"></i> <a href="mailto:danielleludovicoo@gmail.com">danielleludovicoo@gmail.com</a></li>
+            <li><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/danielle-bemfica-15a570253" target="_blank" rel="noopener">linkedin.com/in/danielle-bemfica</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-7">
+          <form id="formulario" class="formulario" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" required minlength="2">
+                <div class="invalid-feedback">Escribe tu nombre.</div>
+              </div>
+              <div class="col-md-6">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" required>
+                <div class="invalid-feedback">Escribe un correo válido.</div>
+              </div>
+              <div class="col-12">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="5" required minlength="10"></textarea>
+                <div class="invalid-feedback">El mensaje debe tener al menos 10 caracteres.</div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-principal">Enviar mensaje</button>
+              </div>
+              <div class="col-12">
+                <div id="respuesta" class="alert alert-success d-none mb-0" role="status">Gracias, se abrirá tu programa de correo para enviar el mensaje.</div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2">
+      <span>© <span id="anio"></span> Danielle Bemfica</span>
+      <div class="redes">
+        <a href="mailto:danielleludovicoo@gmail.com" aria-label="Correo"><i class="bi bi-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/danielle-bemfica-15a570253" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
